@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Visiting Foot Doctors</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <i class="ph-fill ph-feet"></i> Visiting Foot <span>Doctors</span>
+      </a>
+      <div class="menu-toggle">
+        <i class="ph ph-list"></i>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="insurance.html">Insurance</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="section" style="background-color: var(--primary-blue); color: var(--white); margin-top: 80px; padding: 60px 0;">
+    <div class="container text-center reveal">
+      <h1 style="color: var(--white); font-size: 2.5rem; margin-bottom: 15px;">Get In Touch</h1>
+      <p style="color: rgba(255,255,255,0.8); font-size: 1.1rem; max-width: 600px; margin: 0 auto;">Ready to schedule a home visit? Contact our team today.</p>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        
+        <div class="contact-info-card reveal">
+          <h3>Contact Information</h3>
+          
+          <div class="contact-info-item">
+            <i class="ph-fill ph-envelope-simple"></i>
+            <div>
+              <p style="font-weight: 600; margin-bottom: 5px;">Email Us</p>
+              <p style="color: rgba(255,255,255,0.8);">info@vfdocs.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-info-item">
+            <i class="ph-fill ph-globe"></i>
+            <div>
+              <p style="font-weight: 600; margin-bottom: 5px;">Website</p>
+              <p style="color: rgba(255,255,255,0.8);"><a href="https://vfdocs.com" style="color: inherit; text-decoration: none;">vfdocs.com</a></p>
+            </div>
+          </div>
+          
+          <div class="contact-info-item">
+            <i class="ph-fill ph-map-pin"></i>
+            <div>
+              <p style="font-weight: 600; margin-bottom: 5px;">Service Area</p>
+              <p style="color: rgba(255,255,255,0.8);">Serving Metro Detroit & Surrounding Communities</p>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="contact-form reveal" style="transition-delay: 0.1s;">
+          <h3 style="margin-bottom: 25px;">Send a Message</h3>
+          <form action="https://formsubmit.co/info@vfdocs.com" method="POST" onsubmit="alert('Thank you for your message! Please note that it may take 24-48 hours for our team to respond.');">
+            <!-- FormSubmit Configuration -->
+            <input type="hidden" name="_subject" value="New Contact Request - Visiting Foot Doctors">
+            <input type="hidden" name="_captcha" value="false">
+            
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" class="form-control" placeholder="(555) 123-4567" required>
+            </div>
+            <div class="form-group">
+              <label for="message">How can we help you?</label>
+              <textarea id="message" name="message" class="form-control" placeholder="Please describe your needs..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Request</button>
+            <p style="text-align: center; margin-top: 15px; font-size: 0.85rem; color: var(--text-muted);">Please note: it may take 24-48 hours to respond to your message.</p>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <a href="#" class="footer-logo">
+            <i class="ph-fill ph-feet"></i> Visiting Foot <span>Doctors</span>
+          </a>
+          <p>Compassionate care in the comfort of your home. Serving Metro Detroit & Surrounding Communities.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="insurance.html">Accepted Insurance</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Contact Info</h4>
+          <ul>
+            <li><i class="ph ph-envelope-simple"></i> info@vfdocs.com</li>
+            <li><i class="ph ph-globe"></i> <a href="https://vfdocs.com" style="color: inherit;">vfdocs.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Visiting Foot Doctors. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
