@@ -70,10 +70,11 @@
 
         <div class="contact-form reveal" style="transition-delay: 0.1s;">
           <h3 style="margin-bottom: 25px;">Send a Message</h3>
-          <form action="https://formsubmit.co/info@vfdocs.com" method="POST" onsubmit="alert('Thank you for your message! Please note that it may take 24-48 hours for our team to respond.');">
+          <form action="https://formsubmit.co/info@vfdocs.com" method="POST">
             <!-- FormSubmit Configuration -->
             <input type="hidden" name="_subject" value="New Contact Request - Visiting Foot Doctors">
             <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://vfdocs.com/thank-you.html">
             
             <div class="form-group">
               <label for="name">Full Name</label>

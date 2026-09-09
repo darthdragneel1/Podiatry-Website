@@ -9,6 +9,7 @@ export default defineConfig({
         services: resolve(__dirname, 'services.html'),
         insurance: resolve(__dirname, 'insurance.html'),
         contact: resolve(__dirname, 'contact.html'),
+        thankyou: resolve(__dirname, 'thank-you.html'),
       },
     },
   },
